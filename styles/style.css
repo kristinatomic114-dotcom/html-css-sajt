@@ -1,0 +1,16 @@
+body {
+    background-color: beige ;
+  }
+  
+  font {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .card-body {
+    border: 2px solid #D2B48C;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }/*# sourceMappingURL=style.css.map */

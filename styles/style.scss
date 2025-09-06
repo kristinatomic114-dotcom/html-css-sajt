@@ -1,0 +1,25 @@
+$bojaBodi: beige;
+$Font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$Border: 2px  solid #D2B48C;
+$Linkovi: none;
+$BojaLinka: black;
+
+
+body{
+    background-color: $bojaBodi;
+}
+
+font{
+    font-family: $Font;
+}
+
+.card-body {
+    border: $Border;
+
+}
+
+
+a{
+    text-decoration: $Linkovi;
+    color:$BojaLinka;
+}
