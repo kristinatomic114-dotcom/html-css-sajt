@@ -1,0 +1,443 @@
+/* Resetujte podrazumevane margine i prostore */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:  #F5F5DC;
+  }
+  
+  nav {
+    max-width: 2000px; 
+    height: 100px;
+    margin: 0 auto; 
+  }
+  
+  
+  
+  ul.navbar-nav > li > a {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  
+  .nav-link {
+    color: #f0f0f0;
+  }
+  
+  .navbar-toggler-icon {
+    width: 45px;
+    height: 10px;
+    background-color: #545453;
+  }
+  
+  nav .container-fluid > a > img {
+    width: 150px;
+      height: 120px;
+      border-radius: 10%;
+      float: left;
+  }
+  
+  nav .navbar-nav li a {
+    color: #000000;
+    border-radius: 4px;
+    box-shadow: #c4bf7f;
+    letter-spacing: 5px; /* Prilagođeni razmak između slova */
+  }
+  
+  nav .navbar-nav li a:hover {
+    color: beige;
+    border-radius: 14px;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #f0f0f0;
+  }
+  
+  
+  
+  
+  
+  
+    /* Footer Styles */
+  
+    /* Stilizovanje teksta */
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Stilizovanje naslova */
+  footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    
+    color: #D2B48C;
+  }
+  
+  /* Stilizovanje donje crte */
+  footer hr {
+    border-top: 3px solid #D2B48C;
+    
+  }
+  
+  /* Stilizovanje teksta za autorska prava */
+  footer p.text-center {
+    font-size: 12px;
+    color: beige;
+  }
+  
+  /* Stilizovanje linkova */
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: beige;
+  }
+  
+  
+  /* Stilizovanje pozadine */
+  footer.bg-dark {
+    background-color: #333333;
+  }
+  
+  
+  
+  
+   /* trebalo bi pocetna strana */
+  
+  
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+      border-radius: 15%;
+     
+      }
+      
+      .carousel-indicators {
+      bottom: 40px;
+      }
+      
+      
+      .carousel-control-prev-icon, .carousel-control-next-icon {
+      transform: scale(1.5);
+      }
+      
+     
+      
+      .carousel-control-prev:focus, .carousel-control-next:focus {
+      outline: none;
+      }
+  
+  
+      .carousel-item img {
+          height: 730px;
+          object-fit: cover;
+  
+          }
+          
+         
+          
+          .carousel-control-prev-icon{
+            position: absolute;
+            left: 5%;
+            background-size: 70px;
+          }
+          
+          .carousel-control-next-icon{
+            position: absolute;
+            right: 5%;
+            background-size: 70px;
+          }
+          
+  
+          
+         
+  
+   /* isto pocetna */
+  
+  
+  
+          .card {
+            border: none;
+            background-color: #D2B48C;
+            
+            }
+            
+            .card-img-top {
+            border-top-right-radius: calc(.25rem - 1px);
+            border-top-left-radius: calc(.25rem - 1px);
+            max-height: 200px;
+            object-fit: cover;
+            }
+            
+            .card-title {
+            font-size: 1.2rem;
+            color: #D2B48C;
+            font-weight: 400;
+            
+            }
+            
+            .card-text {
+            font-size: 1rem;
+            color: beige;
+            }
+            
+            .vesti{
+              color: beige;
+              text-transform: uppercase;
+              padding-bottom: 2%;
+             
+            }
+       
+  
+  #najnovije{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 800;
+    color: #D2B48C;
+    text-align: center;
+    border: 5px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-top: 3%;
+  
+  }
+  
+  
+  #kontaktNaslov{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #D2B48C;
+    text-align: center;
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }         
+  
+  #galerijaNaslov{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #281f05;
+    text-align: center;
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+            .cardd-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cardd:hover .cardd-img-top {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+  }
+  
+  .cardd {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .cardd:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  
+  
+  form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  form input,
+  form textarea {
+    border-radius: 0;
+    border-color: #aaa;
+    font-size: 1.1rem;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #D2B48C;
+    box-shadow: 0 0 0 0.2rem rgba(201, 171, 38, 0.25);
+  }
+  
+  form button[type="submit"] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0;
+    background-color: #D2B48C;
+    border-color: #DEB887;
+    color: #D2B48C;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #D2B48C;
+    border-color: #D2B48C;
+  }
+  
+  
+  .tekst{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #D2B48C;
+    text-align: center;
+    border: 1px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .kartica{
+    color: #D2B48C;
+  }
+  
+  .my-0{
+    text-transform: uppercase;
+    color: #D2B48C;
+    text-align: center;
+  }
+  
+  #submitBtn {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  #submitBtn:hover {
+    background-color: #000000;
+    color: #D2B48C;
+    border-radius: 14%;
+  }
+  .btn-warning{
+    background-color: #D2B48C !important;
+    border:#D2B48C !important;
+  }
+  
+  
+  
+  /* Dodajte sledeći CSS kod u svoj stilski fajl */
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(254, 239, 194, 0.567);
+  }
+  
+  .modal-content {
+    background-color: #ffffff67;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #272525;
+    width: 80%;
+    
+  }
+  
+  .modal-content p {
+   color: #433509;
+   font-weight: 600;
+   
+    
+  }
+  
+  .close {
+    color: #ebde98;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #modalPozadina{
+    background-color: #FFEBCD;
+  }
+  
+  
+  #životinjskaKarta{
+    background-color: #060606d6;
+  }
+  
+  .kard-text{
+    color: #D2B48C;
+    font-weight: 500;
+    font-size: x-large;
+  
+  }
+  
+  #životinjskoDugme:hover{
+    color: #D2B48C;
+    background-color: #000000;
+    border-radius: 14px;
+    box-shadow: #be7207;
+  }
+  
+  
+  /* anketa */
+  
+  #rezultati{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #281f05;
+    text-align: center;
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #anketa{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #281f05;
+    text-align: center;
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #div_pitanja {
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .table thead th {
+    background-color: #f2f2f2;
+  }
+  .popustParagraf{
+    
+      margin: 20px;
+      padding: 20px;
+      background-color: #f3f0de; /* Bež boja pozadine stranice */
+      border: 3px solid #D2B48C; /* Crna boja okvira */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.6;
+      color: #000; /* Crna boja teksta */
+      margin: 0;
+    }
+
+  
